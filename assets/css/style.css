@@ -1,0 +1,583 @@
+/* Link Fonts Family  */
+@import url("font.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui;
+  list-style: none;
+}
+
+/* Root Elements  */
+:root {
+  --black: #101010;
+  --peach: #ffe1b4;
+  --gray: #fafafa;
+}
+
+/* Global Button class  */
+button {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  background: var(--peach);
+  padding: 16px 32px;
+  border: none;
+  border-radius: 20px;
+  min-width: max-content;
+  max-width: max-content;
+}
+
+.header-section {
+  background: var(--gray);
+}
+
+/* container  */
+.container {
+  max-width: 1440px;
+  width: 90%;
+  margin: 0 auto;
+}
+/* Header container  */
+.header-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+/* Logo  */
+.logo {
+  font-family: "Plus Jakarta Sans";
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--black);
+  text-decoration: none;
+  min-width: max-content;
+}
+
+/* Navbar  */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  max-width: 500px;
+  width: 100%;
+}
+/* Navbat List  */
+.navbar-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  li {
+    a {
+      text-decoration: none;
+      font-family: "Inter";
+      font-size: 16px;
+      font-weight: 500;
+      color: black;
+    }
+  }
+}
+
+/* Toggle Button  */
+.toggle-btn,
+.toggle-btn-x {
+  display: none;
+  input {
+    display: none;
+  }
+}
+
+/* ============Header Container Ends============  */
+
+/* ############################  */
+/* ############################  */
+/* ############################  */
+/* ############################  */
+
+/*============ Hero Container Starts ============ */
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Hero Content  */
+.hero-content {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 700px;
+  width: 100%;
+  p {
+    font-family: "Inter";
+    font-size: 28px;
+    font-weight: 500;
+  }
+
+  h1 {
+    font-family: "Plus Jakarta Sans";
+    font-size: 64px;
+    font-weight: 700;
+  }
+
+  span {
+    font-family: "inter";
+    font-weight: 400;
+    font-size: 18px;
+    padding: 10px 0;
+  }
+}
+
+/* Features container  */
+.feature-container {
+  display: flex;
+  gap: 100px;
+  margin-top: 96px;
+
+  .feature-item {
+    width: 235px;
+    h1 {
+      font-family: "Inter";
+      font-size: 32px;
+      font-weight: 500;
+      line-height: 38.73px;
+      margin-bottom: 12px;
+    }
+
+    p {
+      font-family: "Inter";
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 19.36px;
+    }
+  }
+}
+
+/* Profile Section  */
+.profile-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 70px;
+
+  img {
+    width: 100px;
+  }
+
+  p {
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 400;
+  }
+}
+
+/* Pay Out Info Container  */
+.payout-info-container {
+  margin-bottom: 200px;
+  display: flex;
+  gap: 70px;
+  margin-top: 70px;
+}
+.payout-info-heading {
+  display: flex;
+  gap: 30px;
+
+  img {
+    width: 50px;
+  }
+
+  .payout-desc {
+    h1 {
+      font-family: "Plus Jakarta Sans";
+      font-size: 40px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-family: "Inter";
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 19.36px;
+      width: 175px;
+    }
+  }
+}
+
+.payout-links {
+  .link {
+    width: 420px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--black);
+    padding: 11px 0 20px;
+  }
+}
+
+.hero-container {
+  background: url("../images/hero-section-image.png");
+  background-repeat: no-repeat;
+  /* position: absolute; */
+  background-position: right;
+  background-size: 500px;
+}
+
+/* Hero Container Ends  */
+
+/* ##########################  */
+/* ##########################  */
+/* ##########################  */
+
+/* Main Container Starts  */
+.main-section {
+  background: var(--gray);
+  padding: 100px 0;
+}
+
+.main-container {
+  h1 {
+    font-family: "Plus Jakarta Sans";
+    font-size: 46px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+
+  p {
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33.84px;
+    text-align: center;
+    max-width: 1100px;
+  }
+}
+
+.main-cards {
+  display: flex;
+  margin-top: 60px;
+  justify-content: space-between;
+  .card {
+    width: 23%;
+    img {
+      border-radius: 20px;
+      width: 100%;
+    }
+
+    h4 {
+      margin-top: 24px;
+      font-family: "Inter";
+      font-size: 22px;
+      font-weight: 500;
+      min-width: max-content;
+    }
+
+    > p {
+      font-family: "Inter";
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 19.36px;
+      color: #8e8e8e;
+      text-align: left;
+      width: 260px;
+      margin-top: 12px;
+    }
+  }
+}
+
+/* Main Container Ends  */
+
+/* ################### */
+/* ################### */
+/* ################### */
+
+/* Features Container Starts  */
+
+.features-container {
+  padding: 100px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.features-content {
+  width: 50%;
+  h1 {
+    font-family: "Plus Jakarta Sans";
+    font-size: 46px;
+    font-weight: 700;
+  }
+
+  > p {
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 400;
+    margin: 16px 0 60px;
+  }
+}
+.features-list {
+  .active {
+    background: #ffe1b4;
+    border-radius: 10px;
+  }
+  .feature-item {
+    padding: 16px 30px;
+    display: flex;
+    gap: 60px;
+
+    h6 {
+      font-family: "Inter";
+      font-size: 30px;
+      font-weight: 500;
+      text-align: right;
+    }
+
+    > p {
+      font-family: "Inter";
+      font-size: 30px;
+      font-weight: 500;
+      text-align: left;
+      margin: 0;
+    }
+  }
+
+  &:nth-child(1) {
+    p {
+      margin-left: 6px;
+    }
+  }
+}
+
+.feature-image {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  img {
+    width: 100%;
+  }
+}
+
+/* Features Container Ends  */
+
+/* #########################  */
+/* #########################  */
+/* #########################  */
+/* #########################  */
+
+/* About container Starts  */
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 0;
+}
+
+.about-content {
+  width: 51%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  h3 {
+    font-family: "Plus Jakarta Sans";
+    font-size: 46px;
+    font-weight: 700;
+    padding-bottom: 24px;
+  }
+  p {
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33.84px;
+  }
+}
+
+.about-image {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  img {
+    width: 100%;
+  }
+}
+
+/* About Container Completed  */
+
+/* #########################  */
+/* #########################  */
+/* #########################  */
+/* #########################  */
+
+/* faq container Starts  */
+.faq-container {
+  padding: 80px 0;
+}
+.faq-heading {
+  display: flex;
+  justify-content: space-between;
+  h1 {
+    font-family: "Plus Jakarta Sans";
+    font-size: 46px;
+
+    font-weight: 700;
+    max-width: 350px;
+  }
+  p {
+    max-width: 350px;
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+}
+.faq-ans-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background: #fafafa;
+    border-radius: 10px;
+
+    span {
+      font-family: "Inter";
+      max-width: 1100px;
+      font-size: 20px;
+      font-weight: 500;
+    }
+
+    .faq-image {
+      width: 44px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      aspect-ratio: 1;
+      border-radius: 50%;
+      background-image: url("../images/Up-Right.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+}
+.faq-ans-list {
+  .bg-peach {
+    background: #ffe1b4;
+
+    .faq-image {
+      transform: rotate(90deg);
+    }
+  }
+}
+
+/* Faq Container Ends  */
+
+/* #########################  */
+/* #########################  */
+/* #########################  */
+/* #########################  */
+
+/* Footer Container Starts  */
+
+.footer-container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.contact {
+  h1 {
+    font-family: "Plus Jakarta Sans";
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 24px;
+  }
+}
+.footer-content {
+  padding: 80px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.footer-contact {
+  display: flex;
+  gap: 16px;
+}
+.email-icon {
+  width: 44px;
+  height: 44px;
+  background-color: #ffe1b4;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 20px;
+  }
+}
+
+.links {
+  h3 {
+    font-family: "Inter";
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 16px;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    li {
+      a {
+        font-family: "Inter";
+        font-size: 16px;
+        font-weight: 400;
+        color: #101010;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.footer-copyright {
+  padding-top: 40px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  p {
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+  }
+}
+
+.footer-copyright,
+.footer-content {
+  position: relative;
+}
+.footer-copyright::before,
+.footer-content::before {
+  content: "";
+  background: linear-gradient(
+    90deg,
+    rgba(22, 22, 22, 0) 0%,
+    #696969 51.56%,
+    rgba(22, 22, 22, 0) 100%
+  );
+  height: 2px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  display: block;
+}
